@@ -15,10 +15,10 @@
         <nav class="navbar">
             <h2>SUNAINA</h2>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Experience</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +28,7 @@
             <h2>FRONT-END DEVELOPER</h2>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <h2>This is Me</h2>
         <div class="intro">
             <div class="intro-file">
@@ -64,37 +64,36 @@
         </div>
     </div>
 
-    <div class="education">
+    <div class="education" id="education">
         <h2>Education</h2>
         <div class="academic-details">
             <div class="academic">
-                <h4 class="session">Sept 2014 - Aug 2018 <br>
-                    Guru Jambheshwar University of S&T
-                </h4>
-                <p>Bachelor of Technology in Computer Science Engineering<br>
-                    Hisar, Haryana
-                </p>
+                <h4 class="session">Sept 2014 - Aug 2018</h4>
+                <p>Bachelor of Technology in Computer Science Engineering</p>
+                <div class="line-with-dot"></div>
+                <span class="university">Guru Jambheshwar University of S&T</span>
+                <span class="location">Hisar, Haryana</span>
             </div>
             <div class="academic">
-                <h4 class="session">Apr 2013 - Apr 2014<br>
-                    P.G.S.D.Senior Secondary School
-                </h4>
-                <p>Higher Secondary Education in Computer Science<br>
-                    Hisar, Haryana
-                </p>
+                <h4 class="session">Apr 2013 - Apr 2014</h4>
+                <p>Higher Secondary Education in Computer Science</p>
+                <div class="line-with-dot"></div>
+                <span class="university">P.G.S.D. Senior Secondary School</span>
+                <span class="location">Hisar, Haryana</span>
             </div>
             <div class="academic">
-                <h4 class="session">Apr 2011 - Apr 2012 <br>
-                    Captain Senior Secondary School
-                </h4>
-                <p>high School<br>
-                    Hisar, Haryana
-                </p>
+                <h4 class="session">Apr 2011 - Apr 2012</h4>
+                <p>Secondary <br>
+                    School</p>
+                <div class="line-with-dot"></div>
+                <span class="university">Captain Senior Secondary School</span>
+                <span class="location">Hisar, Haryana</span>
             </div>
         </div>
     </div>
 
-    <div class="skills">
+
+    <div class="skills" id="skills">
         <h2>SKILLS</h2>
         <div class="lang">PROGRAMMING LANGUAGES & TOOLS </div>
         <ul class="icon">
@@ -117,39 +116,67 @@
             <li class="icon-list"><i class="fa-brands fa-bootstrap"></i>
             </li>
         </ul>
-        <div class="brief">
-            <div class="skill-breif">Technical Skills</div>
-            <ul class="skill-list">
-                <li>HTML & CSS3</li>
-                <li>JavaScript</li>
-                <li>
-                    Version Control (Git/GitHub)
-                </li>
-                <li>Java</li>
-                <li> C and C++</li>
-            </ul>
+        <div class="skills-container">
+            <div class="skill">
+                <span class="skill-title">React.js</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Version Control (Git/GitHub)</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-title">HTML & CSS3</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-title">JavaScript</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Tailwind CSS</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 97%;"></div>
+                </div>
+                <span class="skill-percentage">97%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-title">jQuery</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Problem - Solving</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 97%;"></div>
+                </div>
+                <span class="skill-percentage">97%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Time Management</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+            </div>
         </div>
-        <div class="brief">
-            <div class="skill-breif">Frameworks & Libraries</div>
-            <ul class="skill-list">
-                <li>Tailwind CSS</li>
-                <li>Bootstrap</li>
-                <li>
-                    jQuery
-                </li>
-                <li>React.js</li>
-            </ul>
-        </div>
-        <div class="brief">
-            <div class="skill-breif">Soft Skills</div>
-            <ul class="skill-list">
-                <li>Problem - Solving</li>
-                <li>Collaboration & Teamwork</li>
-                <li>Time Management</li>
-            </ul>
-        </div>
+
     </div>
-    <div class="work">
+    <div class="work" id="experience">
         <h2 class="work-exp">Work Experience</h2>
         <div class="experience">
             <div class="left">
